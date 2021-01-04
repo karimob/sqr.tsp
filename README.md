@@ -29,31 +29,31 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity | T |  | 
+| getX |D  | getter | 
+| getY | D | getter | 
+| toString |I | elle affiche juste la valeur des fonctions get donc pas besoin de tester | 
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  | T |  |
+| getCity  |  D| getter |
+| getDistance  |T |  |
+| getFitness  | T|  |
+| setCity  | I |setter  |
+| tourSize  | I | retourne juste la valeur size de la tour |
+| toString  | I | retourne juste le geneString après une simple boucle |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
-| getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| getFittest  | T |  |
+| getTour  |  D |getter  |
+| populationSize  | D |  getter|
+| saveTour  |  D|elle ajoute tout simplement une tour à un certain index  |
 
 ## Functions to test now
 
