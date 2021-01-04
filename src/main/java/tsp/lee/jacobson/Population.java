@@ -1,5 +1,10 @@
 package tsp.lee.jacobson;
 
+
+/**
+ * Commentaire de la classe Population, elle gère la population
+ *
+ */
 public class Population {
 
     // Holds population of tours

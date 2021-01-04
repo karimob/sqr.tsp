@@ -1,5 +1,9 @@
 package tsp.lee.jacobson;
 
+/**
+ * Commentaire de la classe city, elle gère les villes
+ *
+ */
 public class City {
     int x;
     int y;
